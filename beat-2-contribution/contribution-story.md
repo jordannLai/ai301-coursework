@@ -55,10 +55,9 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
+**Unit 5: Ran issue-scout's first live GitHub scan, then graded hand-picked candidates until one passed (2026-10-19)**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+I ran my issue-scout skill live: three `good first issue` searches (TypeScript, Python, Java) drawn from my fit profile, a ranking script that dropped assigned, stale, and noisy issues, and rubric grading of the top five. The scan came back 0/5 accepted, with every pick failing only Issue availability: my ranking checked assignees but couldn't see open linked PRs or claim comments, sorting by most recent update pushed freshly claimed issues to the top, and Query C hit the 100-result limit, so it may have been truncated. I logged these limits in `scan-notes.md` along with the strategy fixes they call for (drop issues with open linked PRs or recent claims, stop favouring recent updates, split Query C). Then I graded hand-picked candidates directly; WebDevTools #400 passed every required check, and I chose it because it is small, concrete, test-focused JavaScript/React work.
 
 **Unit 6: [one line on the tool work]**
 
